@@ -3,7 +3,7 @@
 <div class="app-container">
   {{#each model as |post|}}
     <div class="post-container">
-      {{#link-to 'post' post.id}}   
+      {{#link-to 'user' post.userId}}   
         <h2>{{post.title}}</h2>
       {{/link-to}}   
       <h5>{{post.body}}</h5>
